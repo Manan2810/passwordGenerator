@@ -11,7 +11,7 @@
         <h1>Password Generator</h1>
         <div class="display-container">
             <input readonly placeholder="Password" class="display" data-passwordDisplay><!--here data-passwordDisplay is custom attribute-->
-            <button>
+            <button data-copyBtn>
                 <span data-copyMsg></span>
                 <img src="./assets/back.svg" alt="copy" width="23" height="23">
             </button>
@@ -23,7 +23,7 @@
                 <p data-length>0</p>
             </div>
             <!-- slider -->
-            <input type="range" min="1" max="20" value="10" class="slider" step="1" data-lengthSlider>
+            <input type="range" min="1" max="20" class="slider" step="1" data-lengthSlider>
             <!-- checkboxes -->
             <div>
                 <input type="checkbox" id="uppercase" checked>
