@@ -31,7 +31,7 @@ function handleSlider()
 
 function setIndicator(color){
     indicator.style.background=color;
-    indicator.style.boxShadow="20px 20px 20px 20px color"
+    indicator.style.boxShadow=`0px 0px 12px 1px ${color}`;
 }
 
 function getRandomInteger(min,max){
@@ -192,3 +192,4 @@ function generatePassword(){
 }
 // calling functions
 handleSlider();
+setIndicator("#ccc")
